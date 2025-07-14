@@ -1,20 +1,28 @@
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import BookSection from './components/BookSection';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Login from './components/Login';
+import AdminDashboard from './components/AdminDashboard';
+import PrivateRoute from './components/PrivateRoute';
+import Home from './components/Home'; // or your main component
 
 function App() {
   return (
-    <div className="overflow-hidden">
-      <Header />
-      <Hero />
-      <BookSection />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route
+          path="/admin"
+          element={
+            <PrivateRoute>
+              <AdminDashboard />
+            </PrivateRoute>
+          }
+        />
+      </Routes>
+    </Router>
   );
 }
 
 export default App;
+

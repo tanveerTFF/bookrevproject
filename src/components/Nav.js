@@ -10,11 +10,25 @@ const Nav = () => {
       {navigation.map((item, index) => {
         return (
         <li key={index}>
-          <a className='capitalize hover:text-orange 
-          transition' href={item.href}>{item.name}</a>
+          <a className='capitalize text-coral text-3xl font-flamenco hover:text-bluegreeny 
+          transition' href={item.href}>{item.name}
+          </a>
         </li>
         );
       })}
+       {/* Admin Login Button */}
+        <li className="flex items-center">
+          <a
+            href="/login"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="capitalize text-coral text-3xl font-flamenco hover:text-bluegreeny transition"
+          >
+          Login
+          </a>
+        </li>
+
+
     </ul>
     </nav>
   );

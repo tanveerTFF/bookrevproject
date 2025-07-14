@@ -39,11 +39,12 @@ const Header = () => {
         {/* nav mobile button */}
         <div onClick={()=> setNavMobile(!navMobile)}
          className='lg:hidden cursor-pointer'>
-          <CgMenuRight className='text-blue text-3x1' />
+          <CgMenuRight className='text-bluegreeny text-3x1' />
         </div>
         {/* mobile nav */}
-        <div className={`${navMobile ? 'max-h-[260px]' : 'max-h-0'} fixed bg-yellow
-        shadow-lg left-0 w-full top-[78px] h-full overflow-hidden translation-all`}>
+        <div className={`${navMobile ? 'max-h-[260px]' : 'max-h-0'} fixed bg-pinky text-teeny
+        z-50 shadow-lg left-0 w-full top-[78px] h-full overflow-hidden translation-all
+        duration-300`}>
           <NavMobile />
         </div>
       </div>

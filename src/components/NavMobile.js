@@ -10,7 +10,7 @@ const NavMobile = () => {
     h-full space-y-5'>
       {navigation.map((item, index) => {
       return ( 
-      <li className='capitalize font-medium text-blue'
+      <li className='capitalize font-medium text-coral'
        key={index}>
         <a href={item.href}>{item.name}</a>
       </li>

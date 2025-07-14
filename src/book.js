@@ -49,6 +49,62 @@ const books = [
     author: 'F. Scott Fitzgerald',
     image: 'https://covers.openlibrary.org/b/id/7222246-L.jpg',
   }
+  ,
+    {
+    title: 'The Great Gatsby',
+    author: 'F. Scott Fitzgerald',
+    image: 'https://covers.openlibrary.org/b/id/7222246-L.jpg',
+  },
+    {
+    title: 'The Great Gatsby',
+    author: 'F. Scott Fitzgerald',
+    image: 'https://covers.openlibrary.org/b/id/7222246-L.jpg',
+  },
+    {
+    title: 'The Great Gatsby',
+    author: 'F. Scott Fitzgerald',
+    image: 'https://covers.openlibrary.org/b/id/7222246-L.jpg',
+  },
+    {
+    title: 'The Great Gatsby',
+    author: 'F. Scott Fitzgerald',
+    image: 'https://covers.openlibrary.org/b/id/7222246-L.jpg',
+  },
+    {
+    title: 'The Great Gatsby',
+    author: 'F. Scott Fitzgerald',
+    image: 'https://covers.openlibrary.org/b/id/7222246-L.jpg',
+  },
+    {
+    title: 'The Great Gatsby',
+    author: 'F. Scott Fitzgerald',
+    image: 'https://covers.openlibrary.org/b/id/7222246-L.jpg',
+  },
+    {
+    title: 'The Great Gatsby',
+    author: 'F. Scott Fitzgerald',
+    image: 'https://covers.openlibrary.org/b/id/7222246-L.jpg',
+  },
+    {
+    title: 'The Great Gatsby',
+    author: 'F. Scott Fitzgerald',
+    image: 'https://covers.openlibrary.org/b/id/7222246-L.jpg',
+  },
+    {
+    title: 'The Great Gatsby',
+    author: 'F. Scott Fitzgerald',
+    image: 'https://covers.openlibrary.org/b/id/7222246-L.jpg',
+  },
+    {
+    title: 'The Great Gatsby',
+    author: 'F. Scott Fitzgerald',
+    image: 'https://covers.openlibrary.org/b/id/7222246-L.jpg',
+  },
+    {
+    title: 'The Great Gatsby',
+    author: 'F. Scott Fitzgerald',
+    image: 'https://covers.openlibrary.org/b/id/7222246-L.jpg',
+  }
 ];
 
 export default books;
